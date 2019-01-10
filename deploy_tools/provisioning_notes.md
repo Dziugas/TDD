@@ -31,8 +31,8 @@ Assume we have a user account at /home/opshrus
 |___sites
     |___SITENAME
         |___database
-	    source
-	    static
-	    virtualenv
+	        source
+	        static
+	        virtualenv
 
 	    
