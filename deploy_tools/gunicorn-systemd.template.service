@@ -10,4 +10,4 @@ ExecStart=/home/opshrus/sites/SITENAME/virtualenv/bin/gunicorn \
 	superlists.wsgi:application
 
 [Install]
-WnatedBy=multi-user.target
+WantedBy=multi-user.target
