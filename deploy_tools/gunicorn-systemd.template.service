@@ -6,7 +6,7 @@ Restart=on-failure
 User=opshrus
 WorkingDirectory=/home/opshrus/sites/SITENAME/source
 ExecStart=/home/opshrus/sites/SITENAME/virtualenv/bin/gunicorn \
-	--bind unix:/tmp/gunicorn-SITENAME.socket \
+	--bind unix:/tmp/SITENAME.socket \
 	superlists.wsgi:application
 
 [Install]
